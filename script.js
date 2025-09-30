@@ -1,6 +1,5 @@
-// Set the date and time the countdown ends
-// Format: "Month Day, Year HH:MM:SS" (e.g., "Oct 30, 2025 15:37:25")
-const END_TIME = new Date("Jan 1, 2026 00:00:00").getTime();
+// Set the date and time the countdown ends to 5:00 PM, Friday, October 3rd, 2025 Central Time
+const END_TIME = new Date("Oct 3, 2025 17:00:00 CDT").getTime(); 
 
 // Get the HTML elements
 const daysEl = document.getElementById("days");
