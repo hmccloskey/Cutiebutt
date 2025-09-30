@@ -1,5 +1,5 @@
-// Set the date and time the countdown ends to 5:00 PM, Friday, October 3rd, 2025 Central Time
-const END_TIME = new Date("October 3, 2025 17:00:00 CDT").getTime(); 
+// 5:00 PM CDT (UTC-5) on October 3, 2025
+const END_TIME = new Date("2025-10-03T17:00:00-05:00").getTime();
 
 // Get the HTML elements
 const daysEl = document.getElementById("days");
